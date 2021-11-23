@@ -18,13 +18,11 @@ scrape_wiki_table(url, save_to_dir , attribute, attr_value, order)
 
 #### parameters
 
-```
-url : Wiki-page URL
-save_to_dir : Output path and name ex: "./Desktop/UEF_champions.xlsx"
-attribute[optional]: get specific table types or scrape another website tables by HTML attributes
-attr_value[optional] : previous attribute value ex (attribute = 'id', attr_value = '1234pn')
-order[optional] : script by default scrape 1st table in the page you can scrape any table by its order on the page
-```
+`url : Wiki-page URL`
+`save_to_dir : Output path and name ex: "./Desktop/UEF_champions.xlsx"`
+`attribute[optional]: get specific table types or scrape another website tables by HTML attributes`
+`attr_value[optional] : previous attribute value ex (attribute = 'id', attr_value = '1234pn')`
+`order[optional] : script by default scrape 1st table in the page you can scrape any table by its order on the page`
 
 ### Example
 
