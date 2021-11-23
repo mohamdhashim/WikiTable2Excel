@@ -99,7 +99,7 @@ if __name__ == '__main__':
     
     url = 'https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals'
     output = 'UEFA_Champions.xlsx'
-    scrape_wiki_table(url = url,save_to_dir=output, order=2)
+    scrape_wiki_table(url = url,save_to_dir=output, order=3)
     
     
     url = 'https://ar.wikipedia.org/wiki/قائمة_أفضل_مئة_رواية_عربية'
